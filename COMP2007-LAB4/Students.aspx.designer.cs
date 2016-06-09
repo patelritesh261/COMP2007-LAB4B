@@ -7,13 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace COMP2007_LAB4
-{
-
-
-    public partial class Students
-    {
-
+namespace COMP2007_LAB4 {
+    
+    
+    public partial class Students {
+        
+        /// <summary>
+        /// PageSizeDropdownlist control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList PageSizeDropdownlist;
+        
         /// <summary>
         /// StudentsGridView control.
         /// </summary>
