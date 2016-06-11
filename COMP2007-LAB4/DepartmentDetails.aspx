@@ -16,7 +16,7 @@
                 <div class="form-group">
                     <label class="control-label" for="BudgetTextBox">Budget</label>
                     <asp:TextBox runat="server" TextMode="SingleLine" CssClass="form-control" ID="BudgetTextBox" placeholder="Budget" required="true"></asp:TextBox>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2"  runat="server" CssClass="alert-danger" ControlToValidate="BudgetTextBox" ErrorMessage="Enter Budget "></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2"   runat="server" CssClass="alert-danger" ControlToValidate="BudgetTextBox" ErrorMessage="Enter Budget "></asp:RequiredFieldValidator>
                 </div>
             
                 <div class="text-right">
