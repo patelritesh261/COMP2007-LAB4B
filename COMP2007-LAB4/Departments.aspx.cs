@@ -15,6 +15,7 @@ namespace COMP2007_LAB4
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack) {
+
                 Session["SortColumn"] = "DepartmentID"; // default sort column
                 Session["SortDirection"] = "ASC";
                 //Get Departments list
@@ -46,6 +47,7 @@ namespace COMP2007_LAB4
 
         protected void DepartmentsGridView_RowDataBound(object sender, GridViewRowEventArgs e)
         {
+
             if (IsPostBack) {
                 if (e.Row.RowType == DataControlRowType.Header)//ifheader row has been clicked
                 {
