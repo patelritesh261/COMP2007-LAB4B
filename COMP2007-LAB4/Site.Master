@@ -2,7 +2,7 @@
 
 <%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head runat="server">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
