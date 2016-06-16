@@ -26,7 +26,7 @@ namespace COMP2007_LAB4
             int DepartmentID = Convert.ToInt32(Request.QueryString["DepartmentID"]);
 
             //connect to EF DB
-            using (DefaultConnection db = new DefaultConnection())
+            using (DefaultConnectionEF db = new DefaultConnectionEF())
             {
                 //write query
                 var Departnemt = (from records in db.Departments
@@ -43,7 +43,7 @@ namespace COMP2007_LAB4
         {
             int DepartmentID = 0;
             Department departments = new Department();
-            using (DefaultConnection db = new DefaultConnection())
+            using (DefaultConnectionEF db = new DefaultConnectionEF())
             {
                 if (Request.QueryString.Count > 0) {
                 DepartmentID = Convert.ToInt32(Request.QueryString["DepartmentID"]);
